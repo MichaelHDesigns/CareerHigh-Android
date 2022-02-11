@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
         mywebview = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = mywebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mywebview.loadUrl("https://careerhigh.in");
+        mywebview.loadUrl("https://wallet.hth.world");
         mywebview.setWebViewClient(new WebViewClient());
     }
 
